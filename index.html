@@ -7,20 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taskinator</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js"></script>
 </head>
 <body>
     <header>
         <h1 class="page-title">Taskinator</h1>
         <p>Click the button below to add a new task!</p>
-        <button class="btn">Add task</button>
+        <button class="btn" id="save-task">Add task</button>
     </header>
-    <script src="./assets/js/script.js"></script>
+    
 
     <main class="page-content">
         <section class="task-list-wrapper">
             <h2 class="list-title">Task To Do</h2>
-            <ul class="task-list">
+            <ul class="task-list" id="tasks-to-do">
                 <li class="task-item">A task is going to be added soon!</li>
+                <li class="task-item">This is a new task.</li>
             </ul>
         </section>
     </main>
